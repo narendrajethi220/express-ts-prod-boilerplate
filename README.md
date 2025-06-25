@@ -1,20 +1,17 @@
 # express-ts-prod-boilerplate
 
-A scalable, production‑ready Express.js boilerplate built with **TypeScript** and **Winston** logging.
-Clone it, install dependencies, and start building robust REST APIs with battle‑tested best practices baked in.
+A clean, extensible Express.js server built with TypeScript. This boilerplate is ideal for developers looking to start fast with a well-structured backend foundation.
 
 ---
 
-## ✨ Features
+## 🚀 Features
 
-* ✅ **TypeScript‑first** Express server (ES2020 target)
-* ✅ Scalable, opinionated folder structure
-* ✅ Centralized error‑handling middleware
-* ✅ Environment variable support via `.env`
-* ✅ **Winston logger** for tracking events, debug issues, and monitor application behavior.
-* ✅ Request validation with **Zod**
-* ✅ Modular routing & controller architecture
-
+* ✅ Built with **TypeScript**
+* ✅ Uses **Express v5** for routing and middleware
+* ✅ Centralized **error-handling middleware**
+* ✅ Input validation using **Zod**
+* ✅ Environment configuration using **dotenv**
+* ✅ Modular folder structure for scalability
 
 ---
 
@@ -22,44 +19,59 @@ Clone it, install dependencies, and start building robust REST APIs with battle�
 
 ```text
 .
+.
 ├── src
-│   ├── config          # App & environment config helpers
-│   ├── controllers      # Request handlers / business logic
-│   ├── middlewares      # Error handling, auth, etc.
-│   ├── routes           # Express routers
-│   ├── utils            # Logger, helpers
-│   ├── validators       # Zod schemas
+│   ├── config          # Configuration utilities (env setup)
+│   ├── controllers      # Business logic
+│   ├── middlewares      # Error handlers, validators
+│   ├── routes           # API route definitions
+│   ├── utils            # Reusable utility functions (e.g., logger, helpers)
+│   ├── validators       # Zod schemas for validation
 │   └── server.ts        # App entrypoint
-├── logs                 # Winston log output (git‑ignored)
-├── .env                 # Your env vars (never commit!)
-├── tsconfig.json
-├── package.json
+├── .env                 # Environment variables (not committed)
+├── tsconfig.json        # TypeScript configuration
+├── package.json         # NPM scripts and dependencies
 └── README.md
 ```
 
 ---
 
-## 🚀 Getting Started
+## 📦 Scripts
+
+| Command       | Description                              |
+| ------------- | ---------------------------------------- |
+| `npm run dev` | Run the app in development using nodemon |
+| `npm start`   | Start the server with ts-node            |
+
+---
+
+## 🔧 Tech Stack
+
+* **Express v5** – Next-generation routing and middleware
+* **TypeScript** – Static type-checking
+* **Zod** – Type-safe runtime validation
+* **Dotenv** – Environment variable management
+
+---
+
+## 🧪 Getting Started
 
 ```bash
 https://github.com/narendrajethi220/express-ts-prod-boilerplate.git
 cd express-ts-prod-boilerplate
 npm install
+cp .env.example .env
 npm run dev
 ```
 
 ---
 
-## 📦 NPM Scripts
+## ✍️ Author
 
-| Command         | Description                                    |
-| --------------- | ---------------------------------------------- |
-| `npm run dev`   | Run in development with nodemon      |
-|
-| `npm start`     | Run in development with typescript   |
+Developed by [Narendra Singh Jethi](https://github.com/narendrajethi220) as a part of Lambda 4.0 Backend Developer Bootcamp 
 
 ---
 
-## 👤 Author
+## 🛡️ License
 
-Developed by Narendra Singh Jethi as a part of Lambda 4.0 Backend Bootcamp – happy coding!
+ISC
