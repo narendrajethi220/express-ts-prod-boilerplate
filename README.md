@@ -52,6 +52,7 @@ A clean, extensible Express.js server built with TypeScript. This boilerplate is
 * **TypeScript** – Static type-checking
 * **Zod** – Type-safe runtime validation
 * **Dotenv** – Environment variable management
+* **Winston** – Structured logging with timestamps and levels  
 
 ---
 
