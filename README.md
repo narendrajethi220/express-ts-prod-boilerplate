@@ -12,6 +12,7 @@ A clean, extensible Express.js server built with TypeScript. This boilerplate is
 * ✅ Input validation using **Zod**
 * ✅ Environment configuration using **dotenv**
 * ✅ Modular folder structure for scalability
+* ✅ Integrated **Winston** logger for structured and timestamped logging
 
 ---
 
@@ -21,11 +22,11 @@ A clean, extensible Express.js server built with TypeScript. This boilerplate is
 .
 .
 ├── src
-│   ├── config          # Configuration utilities (env setup)
+│   ├── config          # Configuration utilities (env setup,logger configuration)
 │   ├── controllers      # Business logic
 │   ├── middlewares      # Error handlers, validators
 │   ├── routes           # API route definitions
-│   ├── utils            # Reusable utility functions (e.g., logger, helpers)
+│   ├── utils            # Reusable utility functions (e.g., AppError,helpers)
 │   ├── validators       # Zod schemas for validation
 │   └── server.ts        # App entrypoint
 ├── .env                 # Environment variables (not committed)
