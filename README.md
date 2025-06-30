@@ -6,13 +6,13 @@ A clean, extensible Express.js server built with TypeScript. This boilerplate is
 
 ## 🚀 Features
 
-* ✅ Built with **TypeScript**
-* ✅ Uses **Express v5** for routing and middleware
-* ✅ Centralized **error-handling middleware**
-* ✅ Input validation using **Zod**
-* ✅ Environment configuration using **dotenv**
-* ✅ Modular folder structure for scalability
-* ✅ Integrated **Winston** logger for structured and timestamped logging
+- ✅ Built with **TypeScript**
+- ✅ Uses **Express v5** for routing and middleware
+- ✅ Centralized **error-handling middleware**
+- ✅ Input validation using **Zod**
+- ✅ Environment configuration using **dotenv**
+- ✅ Modular folder structure for scalability
+- ✅ Integrated **Winston** logger for structured and timestamped logging
 
 ---
 
@@ -35,9 +35,29 @@ A clean, extensible Express.js server built with TypeScript. This boilerplate is
 └── README.md
 ```
 
----
+## Steps to setup the starter template
 
-## 📦 Scripts
+1. Clone the project
+
+```
+git clone https://github.com/narendrajethi220/express-ts-prod-boilerplate.git <Project_Name>
+```
+
+2. Move in to the folder structure
+
+```
+cd <Project_Name>
+```
+
+3. Install npm dependecies
+
+```
+npm i
+```
+
+4. Create a new .env file in the root directory and add the `PORT` env variable.
+
+5. 📦 Scripts
 
 | Command       | Description                              |
 | ------------- | ---------------------------------------- |
@@ -48,11 +68,11 @@ A clean, extensible Express.js server built with TypeScript. This boilerplate is
 
 ## 🔧 Tech Stack
 
-* **Express v5** – Next-generation routing and middleware
-* **TypeScript** – Static type-checking
-* **Zod** – Type-safe runtime validation
-* **Dotenv** – Environment variable management
-* **Winston** – Structured logging with timestamps and levels  
+- **Express v5** – Next-generation routing and middleware
+- **TypeScript** – Static type-checking
+- **Zod** – Type-safe runtime validation
+- **Dotenv** – Environment variable management
+- **Winston** – Structured logging with timestamps and levels
 
 ---
 
@@ -70,7 +90,7 @@ npm run dev
 
 ## ✍️ Author
 
-Developed by [Narendra Singh Jethi](https://github.com/narendrajethi220) as a part of Lambda 4.0 Backend Developer Bootcamp 
+Developed by [Narendra Singh Jethi](https://github.com/narendrajethi220) as a part of Lambda 4.0 Backend Developer Bootcamp
 
 ---
 
